@@ -1,0 +1,151 @@
+.all-articles {
+  width: 100vw;
+  gap: 42px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.all-articles1 {
+  width: 165px;
+  height: 40px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #0A0A0A;
+  margin-bottom: 25px;
+}
+
+.filters {
+  width: 335px;
+  height: 44px;
+  gap: 24px;
+
+}
+
+.b1 {
+  width: 50px;
+  height: 20px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: hsl(0, 0%, 4%);
+  gap: 30px;
+  background-color: #FFFFFF;
+  border: 1px #FFFFFF solid;
+}
+
+.b2,
+.b3,
+.b4 {
+  width: 70px;
+  height: 20px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: hsl(0, 0%, 4%);
+  gap: 30px;
+  background-color: #FFFFFF;
+  border: 1px #FFFFFF solid;
+}
+
+.articles-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  width: 100%;
+}
+
+.block1,
+.block2,
+.block3 {
+  width: 100%;
+  gap: 56px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.article-1,
+.article-2,
+.article-3,
+.article-4,
+.article-5,
+.article-6,
+.article-7,
+.article-8,
+.article-9 {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7,
+.img-8,
+.img-9 {
+  width: 27.037vw;
+  height: 230px;
+  border-radius: 16px;
+}
+
+.p-1,
+.p-2,
+.p-3,
+.p-4,
+.p-5,
+.p-6,
+.p-7,
+.p-8,
+.p-9 {
+  width: 27.037vw;
+  height: 52px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+}
+
+.p1.1,
+.p2.2,
+.p3.3,
+.p4.4,
+.p5.5,
+.p6.6,
+.p7.7,
+.p8.8,
+.p9.9 {
+  width: 9vw;
+  height: 18px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 6%;
+  vertical-align: bottom;
+  text-transform: uppercase;
+  color: #717375;
+}

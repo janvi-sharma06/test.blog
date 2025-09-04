@@ -1,0 +1,281 @@
+.navbar {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 32px 80px;
+}
+
+.navbarleft {
+  display: flex;
+  list-style-type: none;
+  background-color: #FFFFFF;
+  gap: 80px;
+  width: auto;
+  /* height: 56px; */
+  text-align: center;
+}
+
+.leftitem1 {
+  list-style-type: none;
+  color: #BABEC1;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.leftitem2 {
+  list-style-type: none;
+  color: #BABEC1;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.leftitem3 {
+  list-style-type: none;
+  color: #BABEC1;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.leftitem4 {
+  list-style-type: none;
+  color: #BABEC1;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #BABEC1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #0A0A0A;
+}
+
+.navbarright {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  width: 100%;
+  max-width: 540px;
+  justify-content: flex-end;
+  background-color: #FFFFFF;
+}
+
+.search-box {
+  width: 120px;
+  height: 20px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.search-box:focus {
+  box-shadow: 0 0 2px 2px #FFFFFF;
+  outline: none;
+}
+
+.search-container {
+  width: 269;
+  height: 52;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-right: 20px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  border-radius: 100px;
+  border-width: 1px;
+  border: 1px solid #E4E9EC
+}
+
+.login:focus {
+  box-shadow: 0 0 2px 2px #FFFFFF;
+  outline: none;
+  box-shadow: none;
+}
+
+.login-container {
+  width: 91px;
+  height: 52px;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  gap: 8px;
+  border-radius: 100px;
+  border-width: 1px;
+  border: 1px solid #E4E9EC
+}
+
+.login {
+  width: 43px;
+  height: 20px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  background: #FFFFFF;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.login:hover {
+  background: transparent !important;
+  color: #0A0A0A;
+  outline: none;
+  box-shadow: none !important;
+}
+
+.login::selection {
+  background: transparent;
+  color: #FFFFFF;
+}
+
+.login-container {
+  width: 91px;
+  height: 52px;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  gap: 8px;
+  border-radius: 100px;
+  border-width: 1px;
+  border: 1px solid #E4E9EC;
+}
+
+.register {
+  width: 65px;
+  height: 20px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: row;
+  width: 133px;
+  height: 52px;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  gap: 8px;
+  border-radius: 100px;
+  border-width: 1px;
+  background-color: #0A0A0A;
+}
+
+.register:hover {
+  background: #0A0A0A;
+}
+
+.register {
+  background: #0A0A0A;
+}
+
+.arr {
+  width: 20;
+  height: 20;
+}
+
+.login {
+  background: #FFFFFF;
+}
+
+
+.login:hover {
+  background: #0056b3;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+}
+
+.navlink1 {
+  width: 41;
+  height: 20;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+}
+
+.navlink2 {
+  width: 65;
+  height: 20;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+}
+
+.navlink3 {
+  width: 41;
+  height: 20;
+  opacity: 1;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+}
+
+.navlink4 {
+  width: 89;
+  height: 20;
+  opacity: 1;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+}
