@@ -1,0 +1,113 @@
+.featured-by-appbrain {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 80px;
+  gap: 40px;
+}
+
+.app-cards {
+  width: 70%; /* App cards section takes 70% width */
+}
+
+.section-title {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #0a0a0a;
+  margin-bottom: 20px;
+}
+
+.featured-app-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); /* Compact grid with smaller columns */
+  gap: 20px; /* Reduced gap between cards */
+}
+
+.featured-app-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.app-details {
+  padding: 12px;
+  flex-grow: 1;
+}
+
+.app-title {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #0a0a0a;
+}
+
+.developer {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #717375;
+  margin-top: 6px;
+}
+
+.rating {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFD700;
+  margin-top: 8px;
+}
+
+.get-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #070707;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.get-btn:hover {
+  background: #323333;
+}
+
+.ad-banner {
+  width: 28%;
+}
+
+.ad-banner img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+@media (max-width: 768px) {
+  .featured-by-appbrain {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app-cards {
+    width: 100%;
+  }
+
+  .ad-banner {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

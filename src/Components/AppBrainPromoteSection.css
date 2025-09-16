@@ -1,0 +1,103 @@
+.appbrain-promote {
+  padding: 60px 80px;
+  background-color: #f6f8fb;
+  text-align: center;
+}
+
+.section-title {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #0a0a0a;
+  margin-bottom: 16px;
+}
+
+.section-description {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #717375;
+  margin-bottom: 40px;
+}
+
+.features-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Responsive grid */
+  gap: 30px;
+}
+
+.feature-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.feature-title {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #0a0a0a;
+  margin-bottom: 12px;
+}
+
+.feature-description {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #717375;
+  line-height: 24px;
+}
+
+.more-info-btn {
+  margin-top: 40px;
+  padding: 12px 30px;
+  background-color: #0c0c0c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.more-info-btn:hover {
+  background-color: #393a3b;
+}
+
+@media (max-width: 768px) {
+  .appbrain-promote {
+    padding: 40px 20px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .features-list {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+  }
+
+  .feature-card {
+    padding: 20px;
+  }
+
+  .feature-title {
+    font-size: 18px;
+  }
+
+  .feature-description {
+    font-size: 14px;
+  }
+}

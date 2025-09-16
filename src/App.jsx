@@ -1,21 +1,20 @@
 import React from "react";
-import Navbar from "./Components/Navbar"
-import Hero from "./Components/Hero";
-import PopularArticles from "./Components/PopularArticles";
-import AllArticles from "./Components/AllArticles";
-import AppBrainIntelligence from "./Components/AppBrainIntelligence";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Homepage from "./Components/pages/Homepage";
 import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
+import ProductDetail from "./Components/pages/ProductDetail";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <PopularArticles />
-      <AllArticles />
-      <AppBrainIntelligence />
+    <BrowserRouter>
+    <Navbar />
+      <Routes>
+        <Route path='/' element={<Homepage />} />
+        <Route path="/details" element={<ProductDetail />} />
+      </Routes>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 
