@@ -1,122 +1,162 @@
  .intelligence {
-  max-width: 1200px; 
-  margin: 100px auto; 
-  padding: 40px 80px;
+   width: 98vw;
+   margin: auto;
+   padding: 40px 80px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 32px;
+   background: #fff;
+   border-radius: 16px;
+ }
+
+ .intelligence1 {
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 88.889vw;
+   border-radius: 32px;
+   min-height: 448px;
+   background: #F6F8FB;
+   overflow: hidden;
+   padding-left: 80px;
+   padding-right: 80px;
+   padding-bottom: 160px;
+   padding-top: 80px;
+ }
+
+
+
+ .imgintel {
+   position: absolute;
+   width: 104.028vw;
+   aspect-ratio: 1498/454;
+   bottom: -1vw;
+   right: -14vw;
+ }
+
+ .brain {
+   width: 40%;
+   gap: 32px;
+ }
+
+
+ .box {
+   width: 42.292vw;
+   height: 124px;
+   gap: 16px;
+ }
+
+ .txt {
+   width: 42.292vw;
+   height: 62px;
+   font-family: Plus Jakarta Sans;
+   font-weight: 700;
+   font-style: Bold;
+   font-size: 40px;
+   line-height: 60px;
+   letter-spacing: 0%;
+   vertical-align: bottom;
+   color: #0A0A0A;
+ }
+
+ .para {
+   width: 41.010vw;
+   height: 60px;
+   font-family: Plus Jakarta Sans;
+   font-weight: 600;
+   font-style: SemiBold;
+   font-size: 15px;
+   line-height: 24px;
+   letter-spacing: 0%;
+   vertical-align: bottom;
+   color: #989B9D;
+
+ }
+
+ /* .search-box1 {
+   width: 609px;
+   height: 52px;
+   gap: 16px;
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .search {
+   width: 1000px;
+   height: 40px;
+   justify-content: space-between;
+   padding-top: 16px;
+   padding-right: 20px;
+   padding-bottom: 16px;
+   padding-left: 20px;
+   border-radius: 100px;
+   border-width: 1px;
+   color: #FFFFFF;
+   border: 1px solid #E4E9EC
+ } */
+
+ .b9 {
+   width: 95px;
+   height: 52px;
+   gap: 8px;
+   padding-top: 16px;
+   padding-right: 20px;
+   padding-bottom: 16px;
+   padding-left: 20px;
+   border-radius: 100px;
+   background: #0A0A0A;
+ }
+
+ .button {
+   width: 55px;
+   height: 20px;
+   font-family: Plus Jakarta Sans;
+   font-weight: 600;
+   font-style: SemiBold;
+   font-size: 16px;
+   line-height: 20px;
+   letter-spacing: 0%;
+   color: #FFFFFF;
+   background: #0A0A0A;
+   border: 1px #0A0A0A solid;
+   margin-bottom: 50px;
+
+ }
+ .search-box1 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 32px;
-  background: #fff;
-  border-radius: 16px;
+  gap: 16px;
+   width: 609px;
+   height: 52px;
 }
 
-.intelligence1 {
+.search-wrapper {
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 88.889vw;
-  padding: 80px;
-  border-radius: 32px;
-  min-height: 448px;
-  background:#F6F8FB;
-  overflow: hidden;
-}
-
-
-.imgintel {
-  position: absolute;
-  width: 104.028vw;
-  aspect-ratio: 1498/454;
-  bottom: 0;
-  right: -9vw;
-}
-
-.brain {
-  width: 40%;
-  gap: 32px;
-}
-
-
-.box {
-  width: 42.292vw;
-  height: 124px;
-  gap: 16px;
-}
-
-.txt {
-  width: 42.292vw;
-  height: 62px;
-  font-family: Plus Jakarta Sans;
-  font-weight: 700;
-  font-style: Bold;
-  font-size: 40px;
-  line-height: 60px;
-  letter-spacing: 0%;
-  vertical-align: bottom;
-  color: #0A0A0A;
-}
-
-.para {
-  width: 41.010vw;
-  height: 60px;
-  font-family: Plus Jakarta Sans;
-  font-weight: 600;
-  font-style: SemiBold;
-  font-size: 15px;
-  line-height: 24px;
-  letter-spacing: 0%;
-  vertical-align: bottom;
-  color: #989B9D;
-
-}
-
-.search-box {
-  width: 609;
-  height: 52;
-  gap: 16px;
-  display: flex;
-  flex-direction: row;
+  flex: 1; /* takes available space */
 }
 
 .search {
-  width: 1000px;
-  height: 40px;
-  justify-content: space-between;
-  padding-top: 16px;
-  padding-right: 20px;
-  padding-bottom: 16px;
-  padding-left: 20px;
-  border-radius: 100px;
-  border-width: 1px;
-  color: #FFFFFF;
-  border: 1px solid #E4E9EC
-}
-
-.b9 {
-  width: 95px;
+  width: 100%;
   height: 52px;
-  gap: 8px;
-  padding-top: 16px;
-  padding-right: 20px;
-  padding-bottom: 16px;
-  padding-left: 20px;
+  padding: 0 45px 0 20px; /* space for vector on right */
   border-radius: 100px;
-  background: #0A0A0A;
-}
-
-.button {
-  width: 55px;
-height: 20px;
-  font-family: Plus Jakarta Sans;
-  font-weight: 600;
-  font-style: SemiBold;
+  border: 1px solid #E4E9EC;
   font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0%;
-  color: #FFFFFF;
-  background: #0A0A0A;
-  border: 1px #0A0A0A solid;
-  margin-bottom: 50px;
-
+  color: #0A0A0A;
+  background: #fff;
 }
+
+.vector1 {
+  position: absolute;
+  right: 15px;  /* inside input */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none; /* so clicks go to input */
+}
+
+
+ 

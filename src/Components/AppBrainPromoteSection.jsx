@@ -38,7 +38,7 @@ function AppBrainPromote() {
   return (
     <section className="appbrain-promote">
       <h2 className="section-title">AppBrain Promote</h2>
-      <p className="section-description">
+      <p className="section-description1">
         The easiest way to promote your Android App. Increase your Android app's users by promoting it on our network.
       </p>
       <div className="features-list">

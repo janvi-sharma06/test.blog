@@ -77,7 +77,10 @@ function TopAppDeals() {
 
   return (
     <section className="top-app-deals">
-      <h2 className="top-app-deals-title">Top App Deals</h2>
+      <div style={{display:"flex",justifyContent:"space-between"}}>
+        <h2 className="top-app-deals-title">Top App Deals</h2>
+        <button className="all-btn">View All</button>
+      </div>
       <div className="app-deals-list">
         {appDeals.map((app, index) => (
           <div className="app-deal-card" key={index}>
@@ -95,7 +98,6 @@ function TopAppDeals() {
           </div>
         ))}
       </div>
-      <button className="view-all-btn">View All</button>
     </section>
   );
 }

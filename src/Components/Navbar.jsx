@@ -24,7 +24,8 @@ const Navbar = () => {
         </div>
         <div className="navbarright">
           <div className="search-container">
-            <input type="text" placeholder="Search for apps" className="search-box" />
+           <input type="text" placeholder="Search for apps" className="search-box" />
+            <div className="vector"><img src="./Vector.png"/></div>
           </div>
           <div className="login-container" onClick={() => openModal("login")}>
             <button className="login" >Login</button>

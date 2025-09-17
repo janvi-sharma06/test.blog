@@ -9,8 +9,8 @@
 
 .hot-apps-center {
   text-align: center;
-  width: 100%;
-  padding-top: 50px;
+  width: 88.889vw;
+  padding-top: 30px;
 }
 
 .hot-apps-title {
@@ -74,6 +74,7 @@
   border-radius: 20px;
   text-decoration: none;
   font-weight: 600;
+  
 }
 
 .hot-app-btn:hover {

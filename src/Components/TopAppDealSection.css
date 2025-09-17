@@ -13,83 +13,67 @@
   margin-bottom: 20px;
 }
 
-.app-deals-list {
+/* .app-deals-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
-  gap: 30px; /* Increased gap for better spacing between cards */
-}
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 30px;
+  max-width: 1200px; 
+  margin: 0 auto;
+} */
 
-.app-deal-card {
-  background: #fff;
-  border-radius: 16px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row; /* Align content horizontally */
-  position: relative;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for each card */
-}
 
-.app-image {
-  width: 120px; /* Set a fixed width for the image */
+
+/* .app-image {
+  width: 120px; 
   height: 120px;
-  margin-right: 20px; /* Space between image and content */
-}
+  margin-right: 20px; 
+} */
 
-.app-image img {
+/* .app-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
-}
+} */
 
-.app-content {
-  flex-grow: 1; /* Allow content to take remaining space */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
 
 .app-title {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 18px;
+  font-style: SemiBold;
+  font-size: 16px;
   font-weight: 600;
-  line-height: 26px;
+  line-height: 20px;
   color: #0a0a0a;
   margin-bottom: 6px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
 }
 
 .developer {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 14px;
-  font-weight: 500;
+  font-style: Regular;
+  font-weight: 400;
   color: #717375;
   margin-bottom: 8px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
 }
 
 .rating {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 14px;
-  font-weight: 500;
-  color: #FFD700;
-}
-
-.get-btn {
-  position: absolute;
-  right: 20px; /* Align the button to the right */
-  bottom: 20px;
-  background: #00A9FF;
-  color: #fff;
-  padding: 8px 20px;
-  border-radius: 20px;
-  text-decoration: none;
   font-weight: 600;
+  font-style: SemiBold;
+  color: #FFD700;
+  line-height: 18px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
 }
 
-.get-btn:hover {
-  background: #007BB5;
-}
-
-.view-all-btn {
+.all-btn {
   margin-top: 30px;
   background: #F1F1F1;
   color: #0A0A0A;
@@ -100,6 +84,107 @@
   cursor: pointer;
 }
 
-.view-all-btn:hover {
+.all-btn:hover {
   background: #D1D1D1;
+}
+
+/* .app-deal-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row; 
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  gap: 24px;
+  align-items: center; 
+  padding: 20px;       
+} */
+
+/* .app-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.get-btn {
+    position: absolute;
+  bottom: 20px;
+  left: 87%;
+  transform: translateX(-50%);
+  background: #070707;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.get-btn:hover {
+  background: #007BB5;
+} */
+
+
+
+.app-deals-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* responsive */
+  gap: 30px;
+  max-width: 1200px; /* keeps cards centered */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+.app-deal-card {
+  background: #fff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* vertically center everything */
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  gap: 24px;
+  position: relative;
+}
+
+.app-image {
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  /* keep image fixed size */
+}
+
+.app-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.app-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  /* stack title, dev, rating */
+  justify-content: center;
+}
+
+.get-btn {
+  margin-left: auto;
+  /* push button to far right */
+  background: #070707;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.get-btn:hover {
+  background: #007BB5;
 }

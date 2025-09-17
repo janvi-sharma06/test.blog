@@ -101,16 +101,17 @@ ul li a:hover {
 }
 
 .search-container {
-  width: 269;
-  height: 52;
-  justify-content: space-between;
+  width: 269px;
+  height: 52px;
   padding-top: 16px;
   padding-right: 20px;
   padding-bottom: 16px;
   padding-left: 20px;
   border-radius: 100px;
   border-width: 1px;
-  border: 1px solid #E4E9EC
+  border: 1px solid #E4E9EC;
+  display: flex;
+  justify-content: space-around;
 }
 
 .login:focus {

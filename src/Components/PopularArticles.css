@@ -7,16 +7,20 @@
 .popular-articles-title {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
+  font-style: Bold;
   font-size: 32px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
   line-height: 40px;
   color: #0a0a0a;
   margin-bottom: 20px;
 }
 
+
 .app-btn {
   position: absolute;
-  bottom: 20px;
-  left: 50%;
+  bottom: 13px;
+  left: 52%;
   transform: translateX(-50%);
   background: #0d0d0e;
   color: #fff;
@@ -26,24 +30,30 @@
   font-weight: 600;
 }
 
-.view-all-btn {
-  margin-top: 30px;
-  background: #F1F1F1;
+.view-btn {
   color: #0A0A0A;
   padding: 10px 30px;
   border-radius: 20px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  font-style: SemiBold;
   font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  background: #FFFFFF;
+  outline: none;
   border: none;
   cursor: pointer;
 }
 
-.view-all-btn:hover {
+.view-btn:hover {
   background: #D1D1D1;
 }
 
 .article-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* 3 per row, responsive */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* 3 per row, responsive */
   gap: 40px;
 }
 
@@ -65,11 +75,12 @@
 
 .article-text {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
-  line-height: 26px;
+  line-height: 20px;
   color: #0a0a0a;
-  margin-top: 12px;
+  margin-top: 17px;
+  line-height: 20px;
 }
 
 .rating {
@@ -83,8 +94,41 @@
 .date {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
+  font-weight: 400;
+  font-style: Regular;
+  line-height: 18px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
   color: #717375;
   margin-top: 6px;
+}
+
+.popular-articles1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appbtn1 {
+  position: relative;
+  margin-left: 21vw;
+}
+
+.popu {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 410.67px;
+}
+
+.popu img {
+  flex-shrink: 0;
+  /* image won’t shrink */
+}
+
+.popu .info {
+  display: flex;
+  flex-direction: column;
+  /* stack text/date/rating vertically */
+  justify-content: center;
+  /* optional: center relative to image */
 }

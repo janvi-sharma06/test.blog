@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 60px 80px;
-  background-color: #f6f8fb;
+  /* background-color: #f6f8fb; */
   gap: 40px;
 }
 
@@ -35,35 +35,62 @@
   width: 461px;
   height: 584px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 48px;
+  background-color: #F5F6FA;
 }
 
+
 .ranking-info {
-  width: 55%;
+  width: 755px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px; 
 }
 
 .ranking-title {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
-  font-size: 36px;
+  font-style: Bold;
+  font-size: 48px;
   color: #0a0a0a;
   margin-bottom: 16px;
+  line-height: 60px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
 }
 
 .ranking-description {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
+  font-style: SemiBold;
   font-size: 18px;
-  color: #717375;
+  color: #989B9D;
   margin-bottom: 40px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
 }
 
-.collapsible {
+
+/* .collapsible {
   background-color: #ffffff;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+} */
+
+.collapsible {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* transition: background-color 0.3s ease; */
+
+}
+.collapsible.active {
+  background-color: #E4E9EC; 
 }
 
 .collapsible-header {
@@ -103,4 +130,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
+  
 }
+
+

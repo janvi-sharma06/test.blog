@@ -4,7 +4,6 @@
   align-items: center;
   padding: 60px 80px;
   gap: 40px;
-  background-color: #f6f8fb;
 }
 
 .tools-content {
@@ -22,18 +21,24 @@
 .tools-title {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 44px;
+  font-size: 48px;
+  font-style: Bold;
+  line-height: 60px;
   color: #0a0a0a;
   margin-bottom: 16px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
 }
 
 .tools-description {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
+  font-style: SemiBold;
   font-size: 18px;
-  line-height: 28px;
-  color: #717375;
+  line-height: 24px;
+  color: #989B9D;
+  letter-spacing: 0%;
+  vertical-align: bottom;
   margin-bottom: 24px;
 }
 
@@ -53,8 +58,15 @@
 }
 
 .sdk-btn {
-  background-color: #fffdfd;
+  background-color: #bab5b5;
   color: #0e0d0d;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+
 }
 
 .sdk-btn:hover {
@@ -64,6 +76,13 @@
 .learn-more-btn {
   background-color: #050505;
   color: #f5f4f4;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+
 }
 
 .learn-more-btn:hover {

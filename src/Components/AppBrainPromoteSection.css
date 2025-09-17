@@ -7,24 +7,31 @@
 .section-title {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 44px;
+  font-style: Bold;
+  font-size: 48px;
+  line-height: 60px;
   color: #0a0a0a;
   margin-bottom: 16px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
 }
 
-.section-description {
+.section-description1 {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
+  font-style: SemiBold;
   font-size: 18px;
-  line-height: 28px;
-  color: #717375;
+  line-height: 24px;
+  color: #989B9D;
   margin-bottom: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
 }
 
 .features-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Responsive grid */
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 30px;
 }
 
@@ -32,8 +39,11 @@
   background: #ffffff;
   border-radius: 16px;
   padding: 30px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 60px;
 }
 
 .feature-icon {
@@ -49,6 +59,7 @@
   line-height: 28px;
   color: #0a0a0a;
   margin-bottom: 12px;
+  text-align: left;
 }
 
 .feature-description {
@@ -57,17 +68,23 @@
   font-size: 16px;
   color: #717375;
   line-height: 24px;
+  text-align: left;
 }
 
 .more-info-btn {
   margin-top: 40px;
-  padding: 12px 30px;
-  background-color: #0c0c0c;
-  color: #fff;
+  padding: 14px 13px;
+  background-color: #FFFFFF;
+  color: #0A0A0A;
+  font-family: Plus Jakarta Sans;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 100px;
+  border: 1px solid #E4E9EC;
   font-weight: 600;
-  font-size: 18px;
+  font-style: SemiBold;
+  line-height: 20px;
+letter-spacing: 0%;
+  font-size: 16px;
   transition: background-color 0.3s;
 }
 
@@ -100,4 +117,14 @@
   .feature-description {
     font-size: 14px;
   }
+}
+
+.section-title,
+.section-description1 {
+  max-width: 800px;   
+  margin: 0 auto 16px; 
+}
+
+.section-description1 {
+  margin-bottom: 40px; 
 }

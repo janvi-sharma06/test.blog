@@ -41,7 +41,7 @@ function AppBrainRanking() {
           Optimize user acquisition and retention by analyzing your app’s market position and understanding your users through our free analytics service.
         </p>
         {collapsibles.map((item, index) => (
-          <div key={index} className="collapsible">
+          <div key={index} className={`collapsible ${activeIndex === index ? "active" : ""}`}>
             <div className="collapsible-header" onClick={() => toggleCollapse(index)}>
               <h3>{item.title}</h3>
               <span>{activeIndex === index ? "▲" : "▼"}</span>

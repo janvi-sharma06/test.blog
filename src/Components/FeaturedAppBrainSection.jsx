@@ -91,6 +91,7 @@
 import React from "react";
 import "./FeaturedAppBrainSection.css";
 import { useNavigate } from "react-router-dom";
+import { FaStar } from 'react-icons/fa';
 
 function FeaturedByAppBrain() {
 
@@ -171,10 +172,10 @@ function FeaturedByAppBrain() {
                 <p className="app-title">{app.title}</p>
                 <p className="developer">{app.developer}</p>
                 <div className="rating">
-                  <span>⭐ {app.rating}</span>
+                  <span><FaStar color="#FFD700" size={18} /> 4.0</span>
                 </div>
               </div>
-              <button className="get-btn" onClick={() => handleRedirect(app.id)}>Get</button>
+              <button className="get-btn1" onClick={() => handleRedirect(app.id)}>Get</button>
             </div>
           ))}
         </div>
