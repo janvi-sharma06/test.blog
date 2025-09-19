@@ -3,7 +3,6 @@
   padding: 40px 80px;
   margin-bottom: 40px;
 }
-
 .popular-articles-title {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
@@ -15,21 +14,6 @@
   color: #0a0a0a;
   margin-bottom: 20px;
 }
-
-
-.app-btn {
-  position: absolute;
-  bottom: 13px;
-  left: 52%;
-  transform: translateX(-50%);
-  background: #0d0d0e;
-  color: #fff;
-  padding: 8px 20px;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
 .view-btn {
   color: #0A0A0A;
   padding: 10px 30px;
@@ -40,95 +24,98 @@
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0%;
-  background: #FFFFFF;
+  border: 1px solid #E4E9EC;
   outline: none;
   border: none;
   cursor: pointer;
 }
-
 .view-btn:hover {
   background: #D1D1D1;
 }
-
 .article-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  /* 3 per row, responsive */
-  gap: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(346px, 1fr));
+  gap: 24px;
 }
-
+.popular-articles1 {
+  display: flex;
+  justify-content: space-between;
+}
+.appbtn1 {
+  position: relative;
+  margin-left: 21vw;
+}
+.popu .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .article {
+  height: 346px;
   background: #fff;
   border-radius: 16px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   position: relative;
+  padding: 0; 
 }
-
 .article img {
   width: 100%;
-  height: 230px;
-  object-fit: cover;
-  border-radius: 16px;
+  height: 250px;
+  border-radius: 12px;
 }
-
+.popu {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  padding: 12px 16px;
+}
+.popu-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.popu-left img {
+  height: 72px;
+  width: 72px;
+  border-radius: 12px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .article-text {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
   color: #0a0a0a;
-  margin-top: 17px;
-  line-height: 20px;
+  margin: 0 0 4px;
 }
-
-.rating {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  color: #FFD700;
-  margin-top: 8px;
-}
-
 .date {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  font-style: Regular;
   line-height: 18px;
-  letter-spacing: 0%;
-  vertical-align: bottom;
   color: #717375;
-  margin-top: 6px;
+  margin: 0 0 4px;
 }
-
-.popular-articles1 {
-  display: flex;
-  justify-content: space-between;
+.ratingpa {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFD700;
+  margin: 0;
 }
-
-.appbtn1 {
-  position: relative;
-  margin-left: 21vw;
-}
-
-.popu {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  width: 410.67px;
-}
-
-.popu img {
-  flex-shrink: 0;
-  /* image won’t shrink */
-}
-
-.popu .info {
-  display: flex;
-  flex-direction: column;
-  /* stack text/date/rating vertically */
-  justify-content: center;
-  /* optional: center relative to image */
+.app-btn {
+  background: #0d0d0e;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
 }

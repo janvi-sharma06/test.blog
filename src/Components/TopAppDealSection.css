@@ -1,4 +1,4 @@
-.top-app-deals {
+/* .top-app-deals {
   width: 100%;
   padding: 40px 80px;
   margin-bottom: 40px;
@@ -12,31 +12,6 @@
   color: #0a0a0a;
   margin-bottom: 20px;
 }
-
-/* .app-deals-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-  gap: 30px;
-  max-width: 1200px; 
-  margin: 0 auto;
-} */
-
-
-
-/* .app-image {
-  width: 120px; 
-  height: 120px;
-  margin-right: 20px; 
-} */
-
-/* .app-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-} */
-
-
 
 .app-title {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -88,50 +63,11 @@
   background: #D1D1D1;
 }
 
-/* .app-deal-card {
-  background: #fff;
-  border-radius: 16px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row; 
-  position: relative;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  gap: 24px;
-  align-items: center; 
-  padding: 20px;       
-} */
-
-/* .app-content {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.get-btn {
-    position: absolute;
-  bottom: 20px;
-  left: 87%;
-  transform: translateX(-50%);
-  background: #070707;
-  color: #fff;
-  padding: 8px 20px;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.get-btn:hover {
-  background: #007BB5;
-} */
-
-
-
 .app-deals-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* responsive */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
   gap: 30px;
-  max-width: 1200px; /* keeps cards centered */
+  max-width: 1200px; 
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -143,7 +79,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* vertically center everything */
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   gap: 24px;
@@ -154,7 +89,6 @@
   width: 120px;
   height: 120px;
   flex-shrink: 0;
-  /* keep image fixed size */
 }
 
 .app-image img {
@@ -168,13 +102,11 @@
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  /* stack title, dev, rating */
   justify-content: center;
 }
 
 .get-btn {
   margin-left: auto;
-  /* push button to far right */
   background: #070707;
   color: #fff;
   padding: 8px 20px;
@@ -187,4 +119,106 @@
 
 .get-btn:hover {
   background: #007BB5;
+} */
+
+.top-app-deals {
+  width: 100%;
+  padding: 40px 80px;
+  margin-bottom: 40px;
+}
+
+.deals-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.top-app-deals-title {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #0a0a0a;
+}
+
+.view-all-btn {
+  background: #f1f1f1;
+  color: #0a0a0a;
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.view-all-btn:hover {
+  background: #d1d1d1;
+}
+
+.app-deals-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(346px, 1fr));
+  gap: 16px 32px;
+}
+
+.app-deal-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-radius: 12px;
+  transition: background 0.2s ease;
+}
+
+.app-deal-item:hover {
+  background: #fafafa;
+}
+
+.deal-app-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.deal-app-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-title1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0a0a0a;
+  margin-bottom: 4px;
+}
+
+.developer {
+  font-size: 14px;
+  color: #717375;
+  margin-bottom: 4px;
+}
+
+.rating {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffd700;
+}
+
+.get-btn {
+  background: #070707;
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.get-btn:hover {
+  background: #333;
 }

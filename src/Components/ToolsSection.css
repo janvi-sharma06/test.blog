@@ -90,14 +90,15 @@
 }
 
 .image-content {
-  flex: 1;
+ position: relative;
   max-width: 50%;
 }
 
 .tools-image {
-  width: 100%;
-  height: auto;
-  border-radius: 16px;
+      width: 444px;
+    height: 370px;
+  border-radius: 24px;
+  background-color: #F6F8FB;
 }
 
 @media (max-width: 768px) {

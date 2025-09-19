@@ -32,7 +32,7 @@
 .features-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 30px;
+  gap: 18px;
 }
 
 .feature-card {
@@ -41,9 +41,8 @@
   padding: 30px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
+  align-items: flex-start;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 60px;
 }
 
 .feature-icon {
@@ -72,7 +71,6 @@
 }
 
 .more-info-btn {
-  margin-top: 40px;
   padding: 14px 13px;
   background-color: #FFFFFF;
   color: #0A0A0A;
@@ -83,13 +81,11 @@
   font-weight: 600;
   font-style: SemiBold;
   line-height: 20px;
-letter-spacing: 0%;
+  letter-spacing: 0%;
   font-size: 16px;
   transition: background-color 0.3s;
-}
-
-.more-info-btn:hover {
-  background-color: #393a3b;
+  display: inline-block;
+  margin-top: 60px;
 }
 
 @media (max-width: 768px) {
@@ -121,10 +117,10 @@ letter-spacing: 0%;
 
 .section-title,
 .section-description1 {
-  max-width: 800px;   
-  margin: 0 auto 16px; 
+  max-width: 800px;
+  margin: 0 auto 16px;
 }
 
 .section-description1 {
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }

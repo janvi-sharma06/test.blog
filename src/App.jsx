@@ -4,6 +4,9 @@ import Homepage from "./Components/pages/Homepage";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import ProductDetail from "./Components/pages/ProductDetail";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 
 function App() {
   return (
