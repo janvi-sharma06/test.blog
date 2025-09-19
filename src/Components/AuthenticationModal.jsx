@@ -1,4 +1,3 @@
-// src/Components/Auth/AuthModal.jsx
 import React, { useEffect, useState } from "react";
 import "./AuthenticationModal.css";
 

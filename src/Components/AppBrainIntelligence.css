@@ -75,28 +75,6 @@
 
  }
 
- /* .search-box1 {
-   width: 609px;
-   height: 52px;
-   gap: 16px;
-   display: flex;
-   justify-content: space-around;
- }
-
- .search {
-   width: 1000px;
-   height: 40px;
-   justify-content: space-between;
-   padding-top: 16px;
-   padding-right: 20px;
-   padding-bottom: 16px;
-   padding-left: 20px;
-   border-radius: 100px;
-   border-width: 1px;
-   color: #FFFFFF;
-   border: 1px solid #E4E9EC
- } */
-
  .b9 {
    width: 95px;
    height: 52px;
@@ -107,6 +85,7 @@
    padding-left: 20px;
    border-radius: 100px;
    background: #0A0A0A;
+   cursor: pointer;
  }
 
  .button {
@@ -122,7 +101,6 @@
    background: #0A0A0A;
    border: 1px #0A0A0A solid;
    margin-bottom: 50px;
-
  }
  .search-box1 {
   display: flex;
@@ -134,13 +112,13 @@
 
 .search-wrapper {
   position: relative;
-  flex: 1; /* takes available space */
+  flex: 1; 
 }
 
 .search {
   width: 100%;
   height: 52px;
-  padding: 0 45px 0 20px; /* space for vector on right */
+  padding: 0 45px 0 20px; 
   border-radius: 100px;
   border: 1px solid #E4E9EC;
   font-size: 16px;
@@ -150,12 +128,12 @@
 
 .vector1 {
   position: absolute;
-  right: 15px;  /* inside input */
+  right: 15px;  
   top: 50%;
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  pointer-events: none; /* so clicks go to input */
+  pointer-events: none; 
 }
 
 

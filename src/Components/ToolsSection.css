@@ -58,7 +58,7 @@
 }
 
 .sdk-btn {
-  background-color: #bab5b5;
+  background-color: transparent;
   color: #0e0d0d;
   font-family: Plus Jakarta Sans;
   font-weight: 600;
@@ -66,37 +66,53 @@
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0%;
+  padding-top: 16px;
+  padding-right: 20px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  gap: 8px;
+  border-radius: 100px;
+  border-width: 1px;
+  border: 1px solid #E4E9EC
 
 }
 
-.sdk-btn:hover {
+/* .sdk-btn:hover {
   background-color: #b1b3b4;
-}
+} */
 
 .learn-more-btn {
-  background-color: #050505;
-  color: #f5f4f4;
+  background-color: #0A0A0A;
+  color: #FFFFFF;
   font-family: Plus Jakarta Sans;
   font-weight: 600;
   font-style: SemiBold;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0%;
-
+  padding-top: 16px;
+  padding-right: 20px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  gap: 8px;
+  border-radius: 100px;
+  cursor: pointer;
 }
 
-.learn-more-btn:hover {
+
+
+/* .learn-more-btn:hover {
   background-color: #3a3939;
-}
+} */
 
 .image-content {
- position: relative;
+  position: relative;
   max-width: 50%;
 }
 
 .tools-image {
-      width: 444px;
-    height: 370px;
+  width: 444px;
+  height: 370px;
   border-radius: 24px;
   background-color: #F6F8FB;
 }

@@ -124,15 +124,10 @@ const ProductDetail = () => {
                         </div>
                     </div>
                     <div className="app-meta">
-                        <span>
-                            <FaStar color="#FFD700" size={18} /> 4.0
-                        </span>
-                        <span>1M+ Downloads</span>
-                        <span>150 MB</span>
                     </div>
                     <div className="app-buttons">
-                        <img src="./appstore.png" className="store"/>
-                        <img src="./googleplay.png" className="play"/>
+                        <img src="./appstore.png" className="store" />
+                        <img src="./googleplay.png" className="play" />
                     </div>
                 </div>
             </section>
@@ -326,11 +321,14 @@ const ProductDetail = () => {
                 </div>
 
                 <div className="tech-right">
-                    <div className="tech-card">Apps other people are watching</div>
-                    <div className="tech-card">Popular Racing Games</div>
-                    <div className="tech-card">Apps on Sale</div>
-                    <div className="tech-card">Today’s trending apps</div>
-                    <div className="tech-card">Top New Apps</div>
+                    <div className="tech-right1">
+                        <div className="tech-card1">Apps other people are watching</div>
+                        <div className="tech-card2">Popular Racing Games</div>
+                    </div>
+                    <div className="tech-right2"><div className="tech-card3">Apps on Sale</div>
+                        <div className="tech-card4">Today’s trending apps</div>
+                        <div className="tech-card5">Top New Apps</div>
+                    </div>
                 </div>
             </section>
 
@@ -338,7 +336,7 @@ const ProductDetail = () => {
             <section className="suggested-apps-section">
                 <div className="suggested-header">
                     <h2>You Might Also Like</h2>
-                    <button>View All</button>
+                    <button className="view-all-link">View All</button>
                 </div>
                 <div className="suggested-list">
                     {suggestedAppsData.map((app, index) => (

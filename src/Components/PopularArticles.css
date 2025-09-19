@@ -3,6 +3,7 @@
   padding: 40px 80px;
   margin-bottom: 40px;
 }
+
 .popular-articles-title {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
@@ -14,42 +15,58 @@
   color: #0a0a0a;
   margin-bottom: 20px;
 }
+
 .view-btn {
-  color: #0A0A0A;
-  padding: 10px 30px;
-  border-radius: 20px;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: Plus Jakarta Sans;
   font-weight: 600;
   font-style: SemiBold;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0%;
-  border: 1px solid #E4E9EC;
-  outline: none;
+  color: #0A0A0A;
   border: none;
+  background-color: transparent;
   cursor: pointer;
 }
-.view-btn:hover {
-  background: #D1D1D1;
+
+.popular-articles3 {
+  width: 103px;
+  height: 52px;
+  padding-top: 16px;
+  padding-right: 20px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  gap: 8px;
+  border-radius: 100px;
+  border-width: 1px;
+  border: 1px solid #E4E9EC
 }
+
+/* .view-btn:hover {
+  background: #D1D1D1;
+} */
 .article-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(346px, 1fr));
   gap: 24px;
 }
+
 .popular-articles1 {
   display: flex;
   justify-content: space-between;
 }
+
 .appbtn1 {
   position: relative;
   margin-left: 21vw;
 }
+
 .popu .info {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .article {
   height: 346px;
   background: #fff;
@@ -58,34 +75,40 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  padding: 0; 
+  padding: 0;
 }
+
 .article img {
   width: 100%;
   height: 250px;
   border-radius: 12px;
 }
+
 .popu {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: space-between;
   padding: 12px 16px;
 }
+
 .popu-left {
   display: flex;
   align-items: center;
   gap: 12px;
 }
+
 .popu-left img {
   height: 72px;
   width: 72px;
   border-radius: 12px;
 }
+
 .info {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .article-text {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
@@ -94,6 +117,7 @@
   color: #0a0a0a;
   margin: 0 0 4px;
 }
+
 .date {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 14px;
@@ -102,6 +126,7 @@
   color: #717375;
   margin: 0 0 4px;
 }
+
 .ratingpa {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 14px;
@@ -109,6 +134,7 @@
   color: #FFD700;
   margin: 0;
 }
+
 .app-btn {
   background: #0d0d0e;
   color: #fff;

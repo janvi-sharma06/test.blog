@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   padding: 60px 80px;
-  /* background-color: #f6f8fb; */
   gap: 40px;
 }
 
@@ -72,22 +71,11 @@
   vertical-align: bottom;
 }
 
-
-/* .collapsible {
-  background-color: #ffffff;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-} */
-
 .collapsible {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  /* transition: background-color 0.3s ease; */
-
 }
 .collapsible.active {
   background-color: #E4E9EC; 

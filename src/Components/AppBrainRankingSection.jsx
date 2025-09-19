@@ -44,7 +44,7 @@ function AppBrainRanking() {
           <div key={index} className={`collapsible ${activeIndex === index ? "active" : ""}`}>
             <div className="collapsible-header" onClick={() => toggleCollapse(index)}>
               <h3>{item.title}</h3>
-              <span>{activeIndex === index ? "▲" : "▼"}</span>
+              <span>{activeIndex === index ? <img src="./Vectorup.png"/> :<img src="./Vectordown.png"/>}</span>
             </div>
             {activeIndex === index && <p className="collapsible-content">{item.description}</p>}
           </div>

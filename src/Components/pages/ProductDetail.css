@@ -126,10 +126,6 @@
 
 }
 
-/* .more-info p {
-  margin: 8px 0;
-  color: #666;
-} */
 .more-info {
   border: 1px solid #ffffff;
   border-radius: 12px;
@@ -151,12 +147,11 @@
   vertical-align: bottom;
 }
 
-/* Grid layout → 3 per row, last row adjusts automatically */
+
 .info-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px 30px;
-  /* row-gap column-gap */
 }
 
 .info-card {
@@ -201,7 +196,6 @@
   text-decoration: underline;
 }
 
-/* 📱 Responsive: stack in 2 columns on tablets, 1 on mobile */
 @media (max-width: 992px) {
   .info-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -317,8 +311,6 @@
 .review-card {
   padding: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  /* display: flex;
-  flex-direction: column; */
   width: 26.519vw;
   gap: 24px;
   border-width: 1px;
@@ -389,10 +381,9 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 40px;
   margin: 40px 0;
   width: 100%;
-  gap: 80px;
+  gap: 60px;
   top: 2278px;
   border-bottom-width: 1px;
   padding: 80px;
@@ -400,8 +391,6 @@
 }
 
 .tech-left {
-  /* flex: 1;
-  max-width: 500px; */
   width: 485px;
   gap: 16px;
 }
@@ -439,6 +428,13 @@
 }
 
 .tech-right {
+  width: 715px;
+  height: 192px;
+  gap: 24px;
+
+}
+
+.tech-right1 {
   flex: 1;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -446,22 +442,63 @@
   max-width: 600px;
 }
 
-.tech-card {
-  padding: 14px 18px;
+.tech-right2 {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 600px;
+}
+
+
+.tech-card1,
+.tech-card2 {
   background: #fff;
-  border-radius: 12px;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 700;
   text-align: center;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
   cursor: pointer;
-  transition: all 0.2s ease;
+  width: 317px;
+  font-style: Bold;
+  line-height: 20px;
+  letter-spacing: 0%;
+  gap: 24px;
+  vertical-align: bottom;
+  font-family: Plus Jakarta Sans;
+  border-radius: 24px;
+  border-width: 1px;
+  padding: 32px;
+  margin-bottom: 2vw;
+  /* transition: all 0.2s ease; */
+}
+.tech-card3,
+.tech-card4,.tech-card5 {
+  background: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  width: 208px;
+  font-style: Bold;
+  line-height: 20px;
+  letter-spacing: 0%;
+  gap: 24px;
+  vertical-align: bottom;
+  font-family: Plus Jakarta Sans;
+  border-radius: 17px;
+  border-width: 1px;
+  height: 64px;
+  padding-top: 20px;
+  /* transition: all 0.2s ease; */
 }
 
-.tech-card:hover {
+
+/* .tech-card:hover {
   background: #f9f9f9;
   transform: translateY(-2px);
-}
+} */
 
 .suggested-apps-section {
   padding: 50px 80px;
@@ -487,7 +524,6 @@
 .suggested-list {
   display: flex;
   gap: 24px;
-  /* overflow-x: auto; */
   width: 88.889vw;
 }
 
@@ -506,24 +542,24 @@
 }
 
 .suggested-name {
-font-family: Plus Jakarta Sans;
-font-weight: 600;
-font-style: SemiBold;
-font-size: 16px;
-line-height: 20px;
-letter-spacing: 0%;
-vertical-align: bottom;
-color: #0A0A0A;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #0A0A0A;
 }
 
 .suggested-company {
   font-family: Plus Jakarta Sans;
-font-weight: 400;
-font-style: Regular;
-font-size: 14px;
-line-height: 18px;
-letter-spacing: 0%;
-vertical-align: bottom;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
   color: #0A0A0A;
 }
 
@@ -567,4 +603,25 @@ vertical-align: bottom;
 .store {
   width: 162.69231796264648px;
   height: 46.99999809265137px;
+}
+
+.view-all-link {
+  padding-top: 16px;
+  padding-right: 20px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  gap: 8px;
+  border-radius: 100px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #0A0A0A;
+  width: 61;
+  height: 20;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
