@@ -108,7 +108,24 @@ const ProductDetail = () => {
 
     return (
         <>
-            {/* HEADER */}
+            <div className="breadcrumb">
+                <div className="breadcrumb-left">
+                    <a href="#">Android Apps</a>
+                    <span className="breadcrumb-separator">›</span>
+                    <a href="#">Racing</a>
+                    <span className="breadcrumb-separator">›</span>
+                    <span className="breadcrumb-current">SpotRacers – Car Racing Game</span>
+                </div>
+
+                <div className="breadcrumb-right">
+                    <button className="breadcrumb-btn">
+                        <img src="./ShareNetwork.png" /> <span>Share</span>
+                    </button>
+                    <button className="breadcrumb-btn">
+                        <img src="./Bookmark.png" /> <span>Bookmark</span>
+                    </button>
+                </div>
+            </div>
             <section className="app-header-section">
                 <div className="app-header-container">
                     <div className="app-info">
@@ -132,6 +149,32 @@ const ProductDetail = () => {
                 </div>
             </section>
 
+            {/* META INFO SECTION */}
+            <section className="app-meta-section">
+                <div className="app-meta-box">
+                    <div className="meta-top">
+                        <img src="./Star.png" className="meta-star"/>
+                        <span className="meta-value">{averageRating.toFixed(1)}</span>
+                    </div>
+                    <span className="meta-label">{totalReviews.toLocaleString()} reviews</span>
+                </div>
+
+                <span className="meta-separator"></span>
+
+                <div className="app-meta-box">
+                    <span className="meta-value">1M+</span>
+                    <span className="meta-label">Downloads</span>
+                </div>
+
+                <span className="meta-separator"></span>
+
+                <div className="app-meta-box">
+                    <span className="meta-value">150</span>
+                    <span className="meta-label">MB</span>
+                </div>
+            </section>
+
+
             <section className="app-carousel-section">
                 <Swiper
                     modules={[Navigation]}
@@ -139,9 +182,9 @@ const ProductDetail = () => {
                     loop={true}
                     spaceBetween={-380}
                     breakpoints={{
-                        0: { slidesPerView: 1 }, // mobile
-                        768: { slidesPerView: 2 }, // tablet
-                        1024: { slidesPerView: 3 }, // desktop
+                        0: { slidesPerView: 1 },
+                        768: { slidesPerView: 2 }, 
+                        1024: { slidesPerView: 3 }, 
                     }}
                 >
                     {carouselImages.map((src, index) => (
